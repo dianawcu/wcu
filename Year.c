@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// Artıq il yoxlanışı
+
 int leapYear(int year) {
     if (year % 400 == 0)
         return 1;
@@ -11,7 +11,7 @@ int leapYear(int year) {
     return 0;
 }
 
-// Ayın gün sayı
+
 int daysInMonth(int month, int year) {
     int days[] = {31,28,31,30,31,30,31,31,30,31,30,31};
 
@@ -21,7 +21,7 @@ int daysInMonth(int month, int year) {
     return days[month - 1];
 }
 
-//  TARİXLƏR ARASI GÜN HESABLAYAN FUNKSİYA
+
 int gunHesabla(int d1, int m1, int y1, int d2, int m2, int y2) {
     int totalDays = 0;
 
